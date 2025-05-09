@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .lista-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .lista-container h1 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 24px;
+  }
+  
+  .lista-vagas {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .vaga-card {
+    background-color: #f9fbfc;
+    border: 1px solid #dde3ea;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+  }
+  
+  .vaga-card:hover {
+    transform: translateY(-3px);
+  }
+  
+  .vaga-card p {
+    margin: 6px 0;
+    color: #444;
+    font-size: 15px;
+  }
+  
+  .vaga-card strong {
+    color: #1e88e5;
+  }
+  
